@@ -40,6 +40,8 @@ body{
 }
 #navMenu ul li{
 	display:inline;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size:14pt;
 
 	
 }
