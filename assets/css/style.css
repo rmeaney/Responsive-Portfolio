@@ -208,7 +208,7 @@ form{
 	top:0px;
 }
 .imgDescriptor{
-	width:275px;
+	width:100%;
 	height:62px;
 	position:absolute;
 	z-index:2;
@@ -217,6 +217,22 @@ form{
 	bottom:10px;
 	color:white;
 }
+#img1{
+	background-image:url("../images/img1.jpg");
+}
+#img2{
+	background-image:url("../images/img2.jpg");
+}
+#img3{
+	background-image:url("../images/img3.jpg");
+}
+#img4{
+	background-image:url("../images/img4.jpg");
+}
+#img5{
+	background-image:url("../images/img5.jpg");
+}
+
 /*End Portfolio page content*/
 .rightCol{
 	background: white;
@@ -274,7 +290,7 @@ footer p{
     
   }
 	.headerName{
-	height:200px;
+		height:200px;
 		width:640px;
 }
 .headHolder{
@@ -295,6 +311,14 @@ footer p{
 		text-align:center;
 		background:none;
 		
+		
+	}
+	#navMenu ul li a{
+		padding-left:50px;
+		padding-right:50px;
+	}
+	.liBorder{
+	
 	}
 	#mainContentSection{
 		width:640px;
@@ -305,13 +329,12 @@ footer p{
 		width:600px;
 	}
 	.titleLCol{
-		width:500px;
-		margin-left:auto;
-		margin-right:auto;
+		width:540px;
+	
 	}
 	.lColContent{
 		width:540px;
-		margin-left:auto;
+		
 	}
 	.lColContent p{
 		width:500px;
@@ -337,9 +360,19 @@ footer p{
 /*Portfolio Page fix Start*/
 .imageContainer{
 	float:none;
+	height:405px;
+	width:540px;
+	 background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
 }
 .imageContainerRt{
 	float:none;
+	height:405px;
+	width:540px;
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
 }
 /*Portfolio Page fix End*/
 
@@ -360,28 +393,26 @@ footer p{
 @media screen and (min-width: 641px) and (max-width:768px) /* Desktop */ {
     body {
 	  width:768px;
-		background-color:aquamarine;
+	  background-color:aquamarine;
     
   }
 	.headerName{
-	
+		padding-left:19px;
 		width:768px;
 }
-.headHolder{
+	.headHolder{
 	
-	width:768px;
+		width:768px;
 	}
 	
 	#myName{
-	
-	
 		height:100px;
 		
 	}
 	#navMenu{
 		
 		height:40px;
-		
+		padding-right:20px;
 		
 		background:none;
 		
@@ -460,13 +491,99 @@ footer p{
 /*Contact Page fix End*/
 }
 @media screen and (min-width: 769px) and (max-width:980px) /* Desktop */ {
-  body {
-    background: yellow;
+    body {
+	  width:980px;
+	  background-color:aquamarine;
+    
   }
-	/*Portfolio Page fix Start*/
-
-
+	.headerName{
 		
-
+		width:980px;
+}
+	.headHolder{
+	
+		width:727px;
+		margin:0 auto 0 auto
+	}
+	
+	#myName{
+		height:100px;
+		
+	}
+	#navMenu{
+		
+		height:40px;
+		
+		
+		background:none;
+		
+	}
+	#mainContentSection{
+		width:727px;
+		}
+	.leftCol{
+		
+		margin:0 auto 0 auto;
+		width:420px;
+	}
+	.titleLCol{
+		width:358px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.lColContent{
+		width:358px;
+		margin-left:0px auto 0px auto;
+	}
+	.lColContent p{
+		width:358px;
+		
+	}
+	
+	
+	.rightCol{
+		
+	
+	}
+	
+	
+	#portrait{
+		
+		background-image:url(../images/portrait.jpg);
+		float:none;
+		padding-bottom:20px;
+	}
+/*Portfolio Page fix Start*/
+.imageContainer{
+	width:360px;
+	height:270px;
+	float:none;
+}
+.imageContainerRt{
+	
+	width:360px !important;
+	height:270px !important;
+	float:none;
+	
+}
+.portfolioFix{
+	width:100% !important;
+	height:10px !important;
+	clear:both;
+	}
 /*Portfolio Page fix End*/
+
+
+/*Contact Page fix Start*/
+.inputText{
+	width:358px;
+	margin:0px;
+	padding:0px;
+}
+.inputMessage{
+	width:358px;
+	margin:0px;
+	padding:0px;
+}
+/*Contact Page fix End*/
 }
