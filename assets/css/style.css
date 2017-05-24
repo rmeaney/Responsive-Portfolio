@@ -1,0 +1,257 @@
+html{
+	
+}
+body{
+	background-image:url(../images/ep_naturalwhite.png);
+	width:100%;
+	height:100%;
+	margin: 0 auto 0 auto;
+}
+.headerName{
+	height:100px;
+	width:100%;
+	background-color:white;
+	border-bottom: 2px solid #cccccc;
+	margin-bottom:42px;
+}
+#myName{
+	width:200px;
+	height:100px;
+	background-color:#4aaaa5;
+	margin-top:0px;
+	float:left;
+	color:white;
+	text-align:center;
+	margin-left:156px;
+	
+}
+#navMenu{
+	float:right;
+	
+	display: inline;
+	margin-top:45px;
+	margin-right:330px;
+	
+	
+	
+}
+#navMenu ul{
+	color:#777777;
+}
+#navMenu ul li{
+	display:inline;
+
+	
+}
+#navMenu ul li a{
+	text-decoration:none;
+	color:#777777;
+	
+}
+#navMenu ul Li a:hover{
+	color:#4aaaa5;
+}
+.liBorder{
+	border-left:1px solid #777777;
+	border-right:1px solid #777777;
+	padding-left:5px;
+	padding-right:5px;
+}
+h1{
+	padding-top:35px;
+	font-size:30px;
+	font-weight:bold;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	
+	
+}
+h2{
+	color:#777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size:14pt;
+}
+h3{
+	color:#4aaaa5;
+	font-size:16pt;
+	font-weight:bold;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+h4{
+	color:#666666;
+	padding-bottom:13px;
+	padding-top:24px;
+	font-size:16pt;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	
+}
+h5{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size:13pt;
+	padding-top:18px;
+	font-weight:normal;
+}
+#mainContentSection{
+	width:960px;
+	margin-left:156px;
+	min-width:650px;
+	padding-bottom:44px;
+	height:auto;
+	position:relative;
+	float:left;
+	
+}
+.clearfix:after{
+	content:"";
+	clear:both;
+}
+
+.leftCol{
+	width: 650px;
+	background: white;
+	padding-left: 0px;
+	padding-right: 0px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	border: 1px solid #cccccc;
+	margin-left: 0px;
+	float: left;
+	
+}
+.titleLCol{
+	padding-bottom: 35px;
+	border-bottom:4px solid #cccccc;
+	color:#4aaaa5;
+	width:590px;
+	margin-left:30px;
+}
+.lColContent{
+	margin-top:32px;
+	margin-bottom:40px;
+	width:590px;
+	margin-left:30px;
+	
+}
+#portrait{
+	width:220px;
+	height:150px;
+	background-image:url(../images/portrait.jpg);
+	float: left;
+	padding-right:20px;
+	background-repeat: no-repeat;
+	
+}
+.leftCol p{
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color:#777777;
+	font-weight:bold;
+
+}
+
+/*Contact page content*/
+form{
+	margin-top:-10px;
+	
+}
+.inputText{
+	width:590px;
+	height:32px;
+	color:#666666;
+}
+.inputMessage{
+	width:590px;
+	height:200px;
+	color:#666666;
+}
+
+.submit{
+	border:none;
+	background-color:#4aaaa5;
+	height:42px;
+	color:white;
+	font-size:16pt;
+	margin-top:21px;
+	
+	width:117px;
+}
+/*End Contact page content*/
+
+/*Begin Portfolio page content*/
+.imageContainer{
+	width:275px;
+	height:207px;
+	position:relative;
+	float:left;
+	margin-right:0px;
+	margin-bottom:46px;
+}
+.imageContainerRt{
+	width:275px;
+	height:207px;
+	position:relative;
+	float:right;
+	margin-left:0;
+	margin-bottom:46px;
+}
+.imageContainer img{
+	position:absolute;
+	z-index:1;
+	top:0px;
+}
+.imgDescriptor{
+	width:275px;
+	height:62px;
+	position:absolute;
+	z-index:2;
+	background-color:#4aaaa5;
+	text-align:center;
+	bottom:10px;
+	color:white;
+}
+/*End Portfolio page content*/
+.rightCol{
+	background: white;
+	width: 270px;
+	height: 202px;
+	float: right;
+	border: 1px solid #cccccc;
+	margin-right: 0px;
+
+}
+.rightUp{
+	margin-left:39px;
+	padding-top:36px;
+	padding-right:-34px;
+	border-bottom: 1px solid #777777;
+	width:206px;
+	height:42px;
+	
+}
+.rightDown{
+	
+}
+.rightLogoHolder{
+	margin-top:22px;
+	margin-left:10px;
+}
+.rightLogoHolder img{
+	padding-left:10px;
+	padding-right:10px;
+}
+.rightLogoHolder img:hover{
+	border:2px solid #4aaaa5;
+}
+
+/*Begin Footer Section*/
+footer{
+	clear:both;
+	background:#666666;
+	width:100%;
+	height:100px;
+	
+	border-top:10px solid #4aaaa5;
+}
+footer p{
+	color:white;
+	padding-top:40px;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	margin-left:555px;
+}
