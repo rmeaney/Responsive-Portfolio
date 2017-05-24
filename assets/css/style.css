@@ -270,26 +270,26 @@ footer p{
 }
 @media screen and (min-width: 0px) and (max-width:640px) /* Desktop */ {
   body {
-	  width:100%;
+	  width:640px;
     
   }
 	.headerName{
 	height:200px;
-		width:100%;
+		width:640px;
 }
 .headHolder{
 	height:200px;
-	width:100%;
+	width:640px;
 	}
 	
 	#myName{
-		width:100%;
+		width:640px;
 		float:none;
 		height:100px;
 		
 	}
 	#navMenu{
-		width:100%;
+		width:640px;
 		height:40px;
 		float:none;
 		text-align:center;
@@ -334,14 +334,128 @@ footer p{
 		float:none;
 		padding-bottom:20px;
 	}
+/*Portfolio Page fix Start*/
+.imageContainer{
+	float:none;
+}
+.imageContainerRt{
+	float:none;
+}
+/*Portfolio Page fix End*/
+
+
+/*Contact Page fix Start*/
+.inputText{
+	width:500px;
+	margin:0px;
+	padding:0px;
+}
+.inputMessage{
+	width:500px;
+	margin:0px;
+	padding:0px;
+}
+/*Contact Page fix End*/
 }
 @media screen and (min-width: 641px) and (max-width:768px) /* Desktop */ {
-  body {
-    background: orange;
+    body {
+	  width:768px;
+		background-color:aquamarine;
+    
   }
+	.headerName{
+	
+		width:768px;
+}
+.headHolder{
+	
+	width:768px;
+	}
+	
+	#myName{
+	
+	
+		height:100px;
+		
+	}
+	#navMenu{
+		
+		height:40px;
+		
+		
+		background:none;
+		
+	}
+	#mainContentSection{
+		width:768px;
+		}
+	.leftCol{
+		float:none;
+		margin:0 auto 0 auto;
+		width:555px;
+	}
+	.titleLCol{
+		width:500px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.lColContent{
+		width:540px;
+		margin-left:auto;
+	}
+	.lColContent p{
+		width:500px;
+		
+	}
+	
+	
+	.rightCol{
+		float:none;
+		width:555px;
+		
+		margin:30px auto 0px auto
+	}
+	
+	
+	#portrait{
+		
+		background-image:url(../images/portrait.jpg);
+		float:left;
+		padding-bottom:20px;
+	}
+/*Portfolio Page fix Start*/
+.imageContainer{
+	float:none;
+}
+.imageContainerRt{
+	float:none;
+}
+/*Portfolio Page fix End*/
+
+
+/*Contact Page fix Start*/
+.inputText{
+	width:500px;
+	margin:0px;
+	padding:0px;
+}
+.inputMessage{
+	width:500px;
+	margin:0px;
+	padding:0px;
+}
+/*Contact Page fix End*/
 }
 @media screen and (min-width: 769px) and (max-width:980px) /* Desktop */ {
   body {
     background: yellow;
   }
+	/*Portfolio Page fix Start*/
+.imageContainer{
+	float:left;
+}
+.imageContainerRt{
+	float:right;
+}
+/*Portfolio Page fix End*/
 }
